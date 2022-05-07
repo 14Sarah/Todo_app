@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background-color: #056679;
+  font-family: sans-serif;
+}
+.todo-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 350px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+ul {
+  /* background-color: #fff; */
+  min-height: 100px;
+  padding: 0px;
+  text-align: left;
+}
+ul li {
+  list-style: none;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.input-section input {
+  border-radius: 5px;
+  border: 1px solid silver;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+ul li i {
+  display: flex;
+  float: right;
+  font-size: 20px;
+}
